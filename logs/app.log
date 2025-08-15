@@ -1,0 +1,57 @@
+2025-08-14 12:03:14.733 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Error while fetching metadata with correlation id 1 : {test.product-events=UNKNOWN_TOPIC_OR_PARTITION}
+2025-08-14 12:09:30.034 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Error while fetching metadata with correlation id 1 : {test.product-events=UNKNOWN_TOPIC_OR_PARTITION}
+2025-08-14 17:08:48.323 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Error while fetching metadata with correlation id 1 : {test.product-events=UNKNOWN_TOPIC_OR_PARTITION}
+2025-08-14 17:16:25.005 [main] INFO  r.h.o.p.service.ProductJsonStreamer - omni.json Products found in file 14999
+2025-08-14 17:16:25.339 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 17:16:25.398 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 17:16:25.458 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 17:16:25.517 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 17:16:25.565 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 17:16:25.601 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 17:16:25.643 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 17:16:25.683 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 999 products to the topic test.product-events
+2025-08-14 18:52:28.340 [main] INFO  r.h.o.p.service.ProductJsonStreamer - omni.json Products found in file 14999
+2025-08-14 18:52:28.652 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:52:28.711 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:52:28.769 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:52:28.831 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:52:28.871 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:52:28.950 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:52:28.986 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:52:29.003 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 999 products to the topic test.product-events
+2025-08-14 18:53:17.915 [main] INFO  r.h.o.p.service.ProductJsonStreamer - omni.json Products found in file 14999
+2025-08-14 18:53:18.253 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:53:18.316 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:53:18.376 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:53:18.435 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:53:18.479 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:53:18.528 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:53:18.563 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:53:18.575 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 999 products to the topic test.product-events
+2025-08-14 18:56:41.230 [main] INFO  r.h.o.p.service.ProductJsonStreamer - omni.json Products found in file 14999
+2025-08-14 18:56:41.561 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:56:41.612 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:56:41.669 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:56:41.730 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:56:41.775 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:56:41.817 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:56:41.848 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:56:41.866 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 999 products to the topic test.product-events
+2025-08-14 18:58:39.560 [main] INFO  r.h.o.p.service.ProductJsonStreamer - omni.json Products found in file 14999
+2025-08-14 18:58:39.888 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:58:39.942 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:58:40.003 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:58:40.069 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:58:40.117 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:58:40.159 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:58:40.200 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 18:58:40.212 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 999 products to the topic test.product-events
+2025-08-14 19:17:28.714 [main] INFO  r.h.o.p.service.ProductJsonStreamer - omni.json Products found in file 14999
+2025-08-14 19:17:29.068 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 19:17:29.130 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 19:17:29.188 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 19:17:29.273 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 19:17:29.322 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 19:17:29.361 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 19:17:29.407 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 2000 products to the topic test.product-events
+2025-08-14 19:17:29.422 [main] INFO  r.h.o.p.service.KafkaProductSender - Successfully sent 999 products to the topic test.product-events
