@@ -17,13 +17,15 @@ public class KafkaProductSender {
     private final Producer<String, ProductMessageDto> producer;
     private final String topicName;
 
-
-    //todo добавить настройки безопасности
     public KafkaProductSender() {
         String bootstrapServers = getRequiredEnv("KAFKA_BOOTSTRAP_SERVERS");
         this.topicName = getRequiredEnv("KAFKA_TOPIC_NAME");
         String acks = getOptionalEnv("KAFKA_ACKS", "1");
         int retries = Integer.parseInt(getOptionalEnv("KAFKA_RETRIES", "3"));
+
+        String securityProtocol = getRequiredEnv("KAFKA_SECURITY_PROTOCOL");
+        String saslMechanism = getRequiredEnv("KAFKA_SASL_MECHANISM");
+        String saslJaasConfig = getRequiredEnv("KAFKA_SASL_JAAS_CONFIG");
 
         Properties props = new Properties();
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
@@ -32,6 +34,10 @@ public class KafkaProductSender {
                 "ru.hofftech.omni.pimmigrator.config.ProductMessageSerializer");
         props.put(ProducerConfig.ACKS_CONFIG, acks);
         props.put(ProducerConfig.RETRIES_CONFIG, retries);
+
+        props.put("security.protocol", securityProtocol);
+        props.put("sasl.mechanism", saslMechanism);
+        props.put("sasl.jaas.config", saslJaasConfig);
 
         this.producer = new KafkaProducer<>(props);
     }
